@@ -32,28 +32,28 @@ steps:
 # add a header to the markdown file using #
 - title: Add a header to your markdown file
  description: Using the '#' syntax, create a header at the top of the markdown file, and commit the changes
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+ event: push
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Add a list to the markdown file
 - title: Add a list to your markdown file
  description: Using the '-' syntax, create a short list in your markdown file, and commit the changes
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+ event: push
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Create a code block
 - title: Create a code block in your markdown file
  description: Using the tab syntax, create a code block in your markdown file, and commit the changes
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+ event: push
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Insert an image
 - title: Insert and image in your markdown file
  description: Using the image syntax, insert an image of your choice in your markdown file, and commit the changes
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+ event: push
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
