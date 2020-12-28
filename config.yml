@@ -1,6 +1,6 @@
-title: # a name for your Learning Lab course
-tagline: # a short description for your Learning Lab course, displayed on the course catalog
-description: # a longer description for your Learning Lab course, displayed on the course's landing page
+title: Markdown
+tagline: How to markdown
+description: A short course detailing some commonly used markdown syntax
 
 # Repository setup
 # The following section template information for the repository
@@ -30,8 +30,8 @@ steps:
       operator: ===
       right: Add markdown file
       else:
-        -type: respond
-         with: 01_try-again.md
+      - type: respond
+        with: 01_try-again.md
   - type: respond
     with: 01_nice-work.md
 
